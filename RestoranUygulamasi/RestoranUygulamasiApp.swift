@@ -1,17 +1,29 @@
 //
-//  RestoranUygulamasiApp.swift
-//  RestoranUygulamasi
+//  OnlineGroceriesSwiftUIApp.swift
+//  OnlineGroceriesSwiftUI
 //
-//  Created by Hamza ONAT on 29.03.2024.
+//  Created by CodeForAny on 30/07/23.
 //
 
 import SwiftUI
 
 @main
-struct RestoranUygulamasiApp: App {
+struct OnlineGroceriesSwiftUIApp: App {
+    
+    @StateObject var mainVM = MainViewModel.shared
+    
     var body: some Scene {
         WindowGroup {
-            RestoranMenuView()
+            
+            NavigationView {
+                
+                if mainVM.isUserLogin {
+                    MainTabView()
+                }else{
+                    WelcomeView()
+                }
+            }
+            
         }
     }
 }

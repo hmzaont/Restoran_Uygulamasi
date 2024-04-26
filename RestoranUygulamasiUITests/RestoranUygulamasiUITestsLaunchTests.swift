@@ -1,13 +1,13 @@
 //
-//  RestoranUygulamasiUITestsLaunchTests.swift
-//  RestoranUygulamasiUITests
+//  OnlineGroceriesSwiftUIUITestsLaunchTests.swift
+//  OnlineGroceriesSwiftUIUITests
 //
-//  Created by Hamza ONAT on 29.03.2024.
+//  Created by CodeForAny on 30/07/23.
 //
 
 import XCTest
 
-final class RestoranUygulamasiUITestsLaunchTests: XCTestCase {
+final class OnlineGroceriesSwiftUIUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
