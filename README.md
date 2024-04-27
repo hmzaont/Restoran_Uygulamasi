@@ -29,14 +29,3 @@ Burger Buffs, kullanıcıların çeşitli lezzetli burgerleri keşfetmelerini ve
 2. Menüden istediğiniz burgeri seçin veya arama yapın.
 3. Beğendiğiniz burgeri sepete ekleyin.
 4. Sepetinize gidin ve ödeme işlemini tamamlayın.
-
-## Katkıda Bulunma
-
-1. Bu projeyi forklayın.
-2. Yeni özellikler veya düzeltmeler ekleyin.
-3. Değişikliklerinizi açıklayıcı bir şekilde commit edin.
-4. Bir pull request oluşturun.
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
