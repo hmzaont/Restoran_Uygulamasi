@@ -1,6 +1,5 @@
 
 
-
 # Burger Buffs Uygulaması
 
 Burger Buffs, kullanıcıların çeşitli lezzetli burgerleri keşfetmelerini ve sipariş vermelerini sağlayan bir iOS uygulamasıdır.
