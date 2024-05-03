@@ -20,7 +20,7 @@ struct MyOrdersView: View {
                             VStack{
                                 HStack {
                                     
-                                    Text("Order No: #")
+                                    Text("Sipariş No: #")
                                         .font(.customfont(.bold, fontSize: 16))
                                         .foregroundColor(.primaryText)
                                     
@@ -72,7 +72,7 @@ struct MyOrdersView: View {
                                         
                                         HStack {
                                             
-                                            Text("Delivery Type:")
+                                            Text("Sipariş Tipi:")
                                                 .font(.customfont(.bold, fontSize: 16))
                                                 .foregroundColor(.primaryText)
                                             
@@ -86,7 +86,7 @@ struct MyOrdersView: View {
                                         
                                         HStack {
                                             
-                                            Text("Payment Type:")
+                                            Text("Ödeme Tipi:")
                                                 .font(.customfont(.bold, fontSize: 16))
                                                 .foregroundColor(.primaryText)
                                             
@@ -100,7 +100,7 @@ struct MyOrdersView: View {
                                         
                                         HStack {
                                             
-                                            Text("Payment Status:")
+                                            Text("Ödeme Durumu:")
                                                 .font(.customfont(.bold, fontSize: 16))
                                                 .foregroundColor(.primaryText)
                                             
@@ -151,7 +151,7 @@ struct MyOrdersView: View {
                     
                     Spacer()
                     
-                    Text("My Ordres")
+                    Text("Siparişlerim")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()

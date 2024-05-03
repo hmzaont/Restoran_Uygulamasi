@@ -13,16 +13,16 @@ struct ChangePasswordView: View {
                 VStack(spacing: 15){
                     
                     
-                    LineSecureField( title: "Current Password", placholder: "Enter your current password", txt: $myVM.txtCurrentPassword, isShowPassword: $myVM.isCurrentPassword)
+                    LineSecureField( title: "Şu Anki Şifreniz", placholder: "Şu anki şifrenizi girin", txt: $myVM.txtCurrentPassword, isShowPassword: $myVM.isCurrentPassword)
                         .padding(.bottom, .screenWidth * 0.02)
                     
-                    LineSecureField( title: "New Password", placholder: "Enter your new password", txt: $myVM.txtNewPassword, isShowPassword: $myVM.isNewPassword)
+                    LineSecureField( title: "Yeni Şifreniz", placholder: "Yeni şifrenizi girin", txt: $myVM.txtNewPassword, isShowPassword: $myVM.isNewPassword)
                         .padding(.bottom, .screenWidth * 0.02)
                     
-                    LineSecureField( title: "Confirm Password", placholder: "Enter your confirm password", txt: $myVM.txtConfirmPassword, isShowPassword: $myVM.isConfirmPassword)
+                    LineSecureField( title: "Yeni Şifrenizi Onaylayın", placholder: "Yeni şifrenizi onaylayın", txt: $myVM.txtConfirmPassword, isShowPassword: $myVM.isConfirmPassword)
                         .padding(.bottom, .screenWidth * 0.02)
                     
-                    RoundButton(title: "Update") {
+                    RoundButton(title: "Güncelle") {
                         myVM.serviceCallChangePassword()
                     }
                     .padding(.bottom, 45)
@@ -49,7 +49,7 @@ struct ChangePasswordView: View {
                     
                     Spacer()
                     
-                    Text( "Change Password")
+                    Text( "Şifreyi Değiştir")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()
@@ -71,7 +71,7 @@ struct ChangePasswordView: View {
             CountryPickerUI(country: $myVM.countryObj)
         })
         .alert(isPresented: $myVM.showError) {
-            Alert(title: Text(Globs.AppName), message: Text(myVM.errorMessage), dismissButton: .default(Text("Ok")))
+            Alert(title: Text(Globs.AppName), message: Text(myVM.errorMessage), dismissButton: .default(Text("Tamam")))
         }
         .navigationTitle("")
         .navigationBarHidden(true)

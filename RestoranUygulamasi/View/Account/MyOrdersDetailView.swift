@@ -12,7 +12,7 @@ struct MyOrdersDetailView: View {
                 
                 VStack{
                     HStack{
-                        Text("Order ID: # \( detailVM.pObj.id )")
+                        Text("Sipariş ID: # \( detailVM.pObj.id )")
                             .font(.customfont(.bold, fontSize: 20))
                             .foregroundColor(.primaryText)
                         
@@ -45,7 +45,7 @@ struct MyOrdersDetailView: View {
                         .padding(.bottom, 8)
                     
                     HStack{
-                        Text("Delivery Type:")
+                        Text("Sipariş Tipi:")
                             .font(.customfont(.medium, fontSize: 16))
                             .foregroundColor(.primaryText)
                         
@@ -58,7 +58,7 @@ struct MyOrdersDetailView: View {
                     .padding(.bottom, 4)
                     
                     HStack{
-                        Text("Payment Type:")
+                        Text("Ödeme Tipi:")
                             .font(.customfont(.medium, fontSize: 16))
                             .foregroundColor(.primaryText)
                         
@@ -87,7 +87,7 @@ struct MyOrdersDetailView: View {
                 VStack{
                                        
                     HStack{
-                        Text("Amount:")
+                        Text("Bakiye:")
                             .font(.customfont(.bold, fontSize: 18))
                             .foregroundColor(.primaryText)
                         
@@ -100,7 +100,7 @@ struct MyOrdersDetailView: View {
                     .padding(.bottom, 4)
                     
                     HStack{
-                        Text("Delivery Cost:")
+                        Text("Sipariş Tutarı:")
                             .font(.customfont(.bold, fontSize: 18))
                             .foregroundColor(.primaryText)
                         
@@ -113,7 +113,7 @@ struct MyOrdersDetailView: View {
                     .padding(.bottom, 4)
                     
                     HStack{
-                        Text("Discount Cost:")
+                        Text("İndirim Miktarı:")
                             .font(.customfont(.bold, fontSize: 18))
                             .foregroundColor(.primaryText)
                         
@@ -128,7 +128,7 @@ struct MyOrdersDetailView: View {
                     Divider()
                     
                     HStack{
-                        Text("Total:")
+                        Text("Hesap:")
                             .font(.customfont(.bold, fontSize: 22))
                             .foregroundColor(.primaryText)
                         
@@ -165,7 +165,7 @@ struct MyOrdersDetailView: View {
                     
                     Spacer()
                     
-                    Text("My Order Detail")
+                    Text("Sipariş Bilgilerim")
                         .font(.customfont(.semibold, fontSize: 16))
                         .foregroundColor(.primaryText)
                     Spacer()

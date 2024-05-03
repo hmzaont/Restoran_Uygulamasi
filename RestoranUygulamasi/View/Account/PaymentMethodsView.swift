@@ -87,7 +87,7 @@ struct PaymentMethodsView: View {
                    
                     Spacer()
                     
-                    Text("Payment Methods")
+                    Text("Ödeme Yöntemleri")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()

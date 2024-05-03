@@ -72,7 +72,7 @@ struct NotificationView: View {
                    
                     Spacer()
                     
-                    Text("Notification")
+                    Text("Bildirimler")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()
@@ -82,7 +82,7 @@ struct NotificationView: View {
                         
                         notiVM.serviceCallReadAll()
                     } label: {
-                        Text("Read All")
+                        Text("Tümünü Oku")
                             .font(.customfont(.bold, fontSize: 16))
                             .foregroundColor(.primaryApp)
                     }

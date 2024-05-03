@@ -39,7 +39,7 @@ struct PromoCodeView: View {
                                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                                 
                                 HStack{
-                                    Text("Expiry Date:")
+                                    Text("Son Kullanma Tarihi:")
                                         .font(.customfont(.bold, fontSize: 14))
                                         .foregroundColor(.primaryText)
                                         .padding(.vertical, 8)
@@ -89,7 +89,7 @@ struct PromoCodeView: View {
                    
                     Spacer()
                     
-                    Text("Promo Code")
+                    Text("Promosyon Kodu")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()

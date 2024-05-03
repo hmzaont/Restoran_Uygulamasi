@@ -14,11 +14,11 @@ struct MyDetailsView: View {
                 VStack(spacing: 15){
                     
                     
-                    LineTextField(title: "Name", placholder: "Enter you name" , txt: $myVM.txtName)
+                    LineTextField(title: "İsim", placholder: "İsminizi girin" , txt: $myVM.txtName)
                     
                     
                     VStack {
-                        Text("Mobile")
+                        Text("Cep Telefonu")
                             .font(.customfont(.semibold, fontSize: 16))
                             .foregroundColor(.textTitle)
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
@@ -42,7 +42,7 @@ struct MyDetailsView: View {
                                 
                             }
                             
-                            TextField("Enter you mobile number", text:  $myVM.txtMobile)
+                            TextField("Cep telefon numaranızı girin", text:  $myVM.txtMobile)
                                 .keyboardType(.numberPad)
                                 .frame(minWidth: 0, maxWidth: .infinity)
                             
@@ -52,12 +52,12 @@ struct MyDetailsView: View {
                         
                     }
                     
-                    LineTextField(title: "Username", placholder: "Enter you username" , txt: $myVM.txtUsername)
+                    LineTextField(title: "Kullanıcı Adı", placholder: "Kullanıcı adınızı girin" , txt: $myVM.txtUsername)
                     
                    
                    
                     
-                    RoundButton(title: "Update") {
+                    RoundButton(title: "Güncelle") {
                         myVM.serviceCallUpdate()
                     }
                     .padding(.bottom, 45)
@@ -65,7 +65,7 @@ struct MyDetailsView: View {
                     NavigationLink {
                         ChangePasswordView()
                     } label: {
-                        Text("Change Password")
+                        Text("Şifreyi Değiştir")
                             .font(.customfont(.bold, fontSize: 18))
                             .foregroundColor(.primaryApp)
                     }
@@ -92,7 +92,7 @@ struct MyDetailsView: View {
                     
                     Spacer()
                     
-                    Text( "My Details")
+                    Text( "Bilgilerim")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()
@@ -114,7 +114,7 @@ struct MyDetailsView: View {
             CountryPickerUI(country: $myVM.countryObj)
         })
         .alert(isPresented: $myVM.showError) {
-            Alert(title: Text(Globs.AppName), message: Text(myVM.errorMessage), dismissButton: .default(Text("Ok")))
+            Alert(title: Text(Globs.AppName), message: Text(myVM.errorMessage), dismissButton: .default(Text("Tamam")))
         }
         .navigationTitle("")
         .navigationBarHidden(true)

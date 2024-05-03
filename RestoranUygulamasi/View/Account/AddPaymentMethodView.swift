@@ -13,19 +13,19 @@ struct AddPaymentMethodView: View {
                     
                                         
                     
-                    LineTextField(title: "Name", placholder: "Enter you name" , txt: $payVM.txtName)
+                    LineTextField(title: "İsim", placholder: "İsminizi girin" , txt: $payVM.txtName)
                     
-                    LineTextField(title: "Card Number", placholder: "Enter card number", txt: $payVM.txtCardNumber, keyboardType: .numberPad)
+                    LineTextField(title: "Kredi/Banka Kart Numarası", placholder: "Kredi/Banka kart numaranızı girin", txt: $payVM.txtCardNumber, keyboardType: .numberPad)
                     
                    
                     
                     HStack{
-                        LineTextField(title: "MM", placholder: "Enter Month" , txt: $payVM.txtCardMonth, keyboardType: .numberPad)
-                        LineTextField(title: "YYYY", placholder: "Enter Year" , txt: $payVM.txtCardYear, keyboardType: .numberPad)
+                        LineTextField(title: "MM", placholder: "Ayınızı girin" , txt: $payVM.txtCardMonth, keyboardType: .numberPad)
+                        LineTextField(title: "YYYY", placholder: "Yılınızı girin" , txt: $payVM.txtCardYear, keyboardType: .numberPad)
                     }
                    
                     
-                    RoundButton(title:  "Add Payment Method") {
+                    RoundButton(title:  "Ödeme Yönteminizi Ekleyin") {
                         
                             payVM.serviceCallAdd {
                                 self.mode.wrappedValue.dismiss()
@@ -56,7 +56,7 @@ struct AddPaymentMethodView: View {
                    
                     Spacer()
                     
-                    Text("Add Payment Method")
+                    Text("Ödeme Yönteminizi Ekleyin")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()
