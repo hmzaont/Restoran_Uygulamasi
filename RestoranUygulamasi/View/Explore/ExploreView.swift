@@ -18,7 +18,7 @@ struct ExploreView: View {
                     
                     Spacer()
                     
-                    Text("Yemek Bul")
+                    Text("Menü Bul")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()

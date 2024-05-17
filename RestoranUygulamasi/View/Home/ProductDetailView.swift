@@ -17,7 +17,7 @@ struct ProductDetailView: View {
                     
                     WebImage(url: URL(string: detailVM.pObj.image ))
                         .resizable()
-                        .indicator(.activity) // Activity Indicator
+                        .indicator(.activity) // Aktivite Indikatoru
                         .transition(.fade(duration: 0.5))
                         .scaledToFit()
                         .frame(width: .screenWidth * 0.8, height: .screenWidth * 0.8)
@@ -290,14 +290,14 @@ struct ProductDetailView_Previews: PreviewProvider {
                 "cat_id": 1,
                 "brand_id": 1,
                 "type_id": 1,
-                "name": "Organic Banana",
-                "detail": "banana, fruit of the genus Musa, of the family Musaceae, one of the most important fruit crops of the world. The banana is grown in the tropics, and, though it is most widely consumed in those regions, it is valued worldwide for its flavour, nutritional value, and availability throughout the year",
+                "name": "Texas Smokehouse Burger",
+                "detail": "Şefin menüsünden lezzetli burgerler ile tanışın!",
                 "unit_name": "pcs",
                 "unit_value": "7",
                 "nutrition_weight": "200g",
                 "price": 2.99,
                 "image": "http://192.168.1.3:3001/img/product/202307310947354735xuruflIucc.png",
-                "cat_name": "Frash Fruits & Vegetable",
+                "cat_name": "Klasik Burger",
                 "type_name": "Pulses",
                 "is_fav": 1
             

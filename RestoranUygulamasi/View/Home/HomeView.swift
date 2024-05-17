@@ -23,7 +23,7 @@ struct HomeView: View {
                             .foregroundColor(.darkGray)
                     }
                     
-                    SearchTextField(placholder: "Search Store", txt: $homeVM.txtSearch)
+                    SearchTextField(placholder: "Restoranda Ara", txt: $homeVM.txtSearch)
                         .padding(.horizontal, 20)
                         .padding(.vertical, 10)
                 }
@@ -126,7 +126,7 @@ struct HomeView: View {
             }
         }
         .alert(isPresented: $homeVM.showError, content: {
-            Alert(title: Text(Globs.AppName), message: Text(homeVM.errorMessage), dismissButton: .default(Text("OK")) )
+            Alert(title: Text(Globs.AppName), message: Text(homeVM.errorMessage), dismissButton: .default(Text("Tamam")) )
         })
         .ignoresSafeArea()
     }

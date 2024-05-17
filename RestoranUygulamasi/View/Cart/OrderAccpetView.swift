@@ -25,7 +25,7 @@ struct OrderAccpetView: View {
                     .foregroundColor(.primaryText)
                     .padding(.bottom, 12)
                 
-                Text("Siparişiniz\nonaylanmak üzere")
+                Text("Siparişiniz\nonaylanmak üzere...")
                     .multilineTextAlignment(.center)
                     .font(.customfont(.semibold, fontSize: 16))
                     .foregroundColor(.secondaryText)

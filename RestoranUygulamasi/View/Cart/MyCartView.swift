@@ -100,7 +100,7 @@ struct MyCartView: View {
             EmptyView()
         }) )
         .alert(isPresented: $cartVM.showError, content: {
-            Alert(title: Text(Globs.AppName), message: Text(cartVM.errorMessage), dismissButton: .default(Text("OK")) )
+            Alert(title: Text(Globs.AppName), message: Text(cartVM.errorMessage), dismissButton: .default(Text("Tamam")) )
         })
         .animation(.easeInOut, value: cartVM.showCheckout)
         .ignoresSafeArea()
