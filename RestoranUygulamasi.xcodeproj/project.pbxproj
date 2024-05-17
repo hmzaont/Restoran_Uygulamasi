@@ -285,9 +285,9 @@
 		CBAFEEFC2A76C8B4009DF242 = {
 			isa = PBXGroup;
 			children = (
-				CBAFEF072A76C8B5009DF242 /* OnlineGroceriesSwiftUI */,
-				CBAFEF182A76C8B8009DF242 /* OnlineGroceriesSwiftUITests */,
-				CBAFEF222A76C8B8009DF242 /* OnlineGroceriesSwiftUIUITests */,
+				CBAFEF072A76C8B5009DF242 /* RestoranUygulamasiSwiftUI */,
+				CBAFEF182A76C8B8009DF242 /* RestoranUygulamasiSwiftUITests */,
+				CBAFEF222A76C8B8009DF242 /* RestoranUygulamasiSwiftUIUITests */,
 				CBAFEF062A76C8B5009DF242 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -302,7 +302,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBAFEF072A76C8B5009DF242 /* OnlineGroceriesSwiftUI */ = {
+		CBAFEF072A76C8B5009DF242 /* RestoranUygulamasiSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				CBD690732A790C49002EE6D3 /* Common */,
@@ -317,7 +317,7 @@
 				CBAFEF0E2A76C8B7009DF242 /* Preview Content */,
 				CBAFEF432A76CB00009DF242 /* Launch Screen.storyboard */,
 			);
-			path = OnlineGroceriesSwiftUI;
+			path = RestoranUygulamasiSwiftUI;
 			sourceTree = "<group>";
 		};
 		CBAFEF0E2A76C8B7009DF242 /* Preview Content */ = {
@@ -328,21 +328,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CBAFEF182A76C8B8009DF242 /* OnlineGroceriesSwiftUITests */ = {
+		CBAFEF182A76C8B8009DF242 /* RestoranUygulamasiSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CBAFEF192A76C8B8009DF242 /* OnlineGroceriesSwiftUITests.swift */,
 			);
-			path = OnlineGroceriesSwiftUITests;
+			path = RestoranUygulamasiSwiftUITests;
 			sourceTree = "<group>";
 		};
-		CBAFEF222A76C8B8009DF242 /* OnlineGroceriesSwiftUIUITests */ = {
+		CBAFEF222A76C8B8009DF242 /* RestoranUygulamasiSwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CBAFEF232A76C8B8009DF242 /* OnlineGroceriesSwiftUIUITests.swift */,
 				CBAFEF252A76C8B8009DF242 /* OnlineGroceriesSwiftUIUITestsLaunchTests.swift */,
 			);
-			path = OnlineGroceriesSwiftUIUITests;
+			path = RestoranUygulamasiSwiftUIUITests;
 			sourceTree = "<group>";
 		};
 		CBAFEF322A76C91C009DF242 /* Font */ = {
