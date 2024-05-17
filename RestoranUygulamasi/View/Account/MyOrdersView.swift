@@ -183,15 +183,15 @@ struct MyOrdersView: View {
     func getOrderStatus(mObj: MyOrderModel) -> String {
         switch mObj.orderStatus {
         case 1:
-            return "Placed"
+            return "Sipariş Verildi."
         case 2:
-            return "Accepted";
+            return "Sipariş Onaylandı.";
         case 3:
-            return "Delivered";
+            return "Sipariş Tamamlandı.";
         case 4:
-            return "Cancel";
+            return "İptal";
         case 5:
-            return "Declined";
+            return "Reddedildi.";
         default:
             return "";
         }
@@ -200,9 +200,9 @@ struct MyOrdersView: View {
     func getDeliveryType(mObj: MyOrderModel) -> String {
         switch mObj.deliverType {
         case 1:
-              return "Delivery";
+              return "Sipariş";
             case 2:
-              return "Collection";
+              return "Koleksiyon";
         default:
             return "";
         }
@@ -211,9 +211,9 @@ struct MyOrdersView: View {
     func getPaymentType(mObj: MyOrderModel) -> String {
         switch mObj.paymentType {
         case 1:
-            return "Cash On Delivery";
+            return "Nakit ile Öde";
         case 2:
-            return "Online Card Payment";
+            return "Kredi Kart ile Öde";
         default:
             return "";
         }
@@ -222,13 +222,13 @@ struct MyOrdersView: View {
     func getPaymentStatus(mObj: MyOrderModel) -> String {
         switch mObj.paymentStatus {
         case 1:
-            return "Processing";
+            return "Sürüyor";
         case 2:
-            return "Success";
+            return "Başarılı";
         case 3:
-            return "Fail";
+            return "Hata";
         case 4:
-            return "Refunded";
+            return "İade";
         default:
             return "";
         }
