@@ -16,14 +16,14 @@ Burger Buffs, kullanıcıların çeşitli lezzetli burgerleri keşfetmelerini ve
 
 ## Kurulum
 
-1. Bu depoyu yerel makinenize klonlayın.
-2. Xcode IDE'sini açın.
-3. Proje dosyasını Xcode'da açın.
-4. `Burger Buffs` uygulamasını seçin ve bir iOS cihazında çalıştırın.
+1. Bu depoyu yerel makineye GitHub ile klonla.
+2. Xcode IDE'sini aç.
+3. Proje dosyasını Xcode'da aç.
+4. `Burger Buffs` uygulamasını seç ve bir iOS cihazında çalıştır.
 
 ## Kullanım
 
-1. Uygulamayı açın.
-2. Menüden istediğiniz burgeri seçin veya arama yapın.
-3. Beğendiğiniz burgeri sepete ekleyin.
-4. Sepetinize gidin ve ödeme işlemini tamamlayın.
+1. Uygulamayı aç.
+2. Menüden istediğiniz burgeri seç veya arama yap.
+3. Beğendiğin burgeri sepete ekle.
+4. Sepetinize git ve ödeme işlemini tamamla.
