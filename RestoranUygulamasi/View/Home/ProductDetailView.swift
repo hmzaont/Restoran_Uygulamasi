@@ -132,7 +132,7 @@ struct ProductDetailView: View {
                 
                 VStack{
                     HStack{
-                        Text("Beslenme")
+                        Text("Değerler")
                             .font(.customfont(.semibold, fontSize: 16))
                             .foregroundColor(.primaryText)
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
