@@ -51,7 +51,7 @@
 		CB9D6EBB2A8D43ED00669923 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D6EBA2A8D43ED00669923 /* ForgotPasswordView.swift */; };
 		CB9D6EBD2A8D449A00669923 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D6EBC2A8D449A00669923 /* OTPView.swift */; };
 		CB9D6EBF2A8D46FB00669923 /* ForgotPasswordSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9D6EBE2A8D46FB00669923 /* ForgotPasswordSetView.swift */; };
-		CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */; };
+		CBAFEF092A76C8B5009DF242 /* RestoranUygulamasiSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF082A76C8B5009DF242 /* RestoranUygulamasiSwiftUIApp.swift */; };
 		CBAFEF0D2A76C8B7009DF242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAFEF0C2A76C8B7009DF242 /* Assets.xcassets */; };
 		CBAFEF102A76C8B7009DF242 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAFEF0F2A76C8B7009DF242 /* Preview Assets.xcassets */; };
 		CBAFEF1A2A76C8B8009DF242 /* OnlineGroceriesSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAFEF192A76C8B8009DF242 /* OnlineGroceriesSwiftUITests.swift */; };
@@ -156,7 +156,7 @@
 		CB9D6EBC2A8D449A00669923 /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
 		CB9D6EBE2A8D46FB00669923 /* ForgotPasswordSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSetView.swift; sourceTree = "<group>"; };
 		CBAFEF052A76C8B5009DF242 /* RestoranUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestoranUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGroceriesSwiftUIApp.swift; sourceTree = "<group>"; };
+		CBAFEF082A76C8B5009DF242 /* RestoranUygulamasiSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoranUygulamasiSwiftUIApp.swift; sourceTree = "<group>"; };
 		CBAFEF0C2A76C8B7009DF242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBAFEF0F2A76C8B7009DF242 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBAFEF152A76C8B8009DF242 /* RestoranUygulamasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestoranUygulamasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -312,7 +312,7 @@
 				CBAFEF3C2A76C9BC009DF242 /* View */,
 				CBAFEF3B2A76C97B009DF242 /* Info.plist */,
 				CBAFEF322A76C91C009DF242 /* Font */,
-				CBAFEF082A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift */,
+				CBAFEF082A76C8B5009DF242 /* RestoranUygulamasiSwiftUIApp.swift */,
 				CBAFEF0C2A76C8B7009DF242 /* Assets.xcassets */,
 				CBAFEF0E2A76C8B7009DF242 /* Preview Content */,
 				CBAFEF432A76CB00009DF242 /* Launch Screen.storyboard */,
@@ -638,7 +638,7 @@
 				CB94C9A92A8B3F94002F1597 /* OrderItemRow.swift in Sources */,
 				CBC7477E2A76D29100DD527C /* RoundButton.swift in Sources */,
 				CB94C9A52A8B3774002F1597 /* MyOrderDetailViewModel.swift in Sources */,
-				CBAFEF092A76C8B5009DF242 /* OnlineGroceriesSwiftUIApp.swift in Sources */,
+				CBAFEF092A76C8B5009DF242 /* RestoranUygulamasiSwiftUIApp.swift in Sources */,
 				CB7EB1662A84AF4C00AF6806 /* AddDeliveryAddressView.swift in Sources */,
 				CB7C294F2A8358BE00A1E404 /* AccountView.swift in Sources */,
 				CBD690752A790C7B002EE6D3 /* UIKitExtension.swift in Sources */,
