@@ -43,7 +43,7 @@ struct FavouriteView: View {
                 Spacer()
                 
                 
-                RoundButton(title: "Hepsini Sepete Ekle")
+                RoundButton(title: "Tümünü Sepete Ekle")
                     .padding(.horizontal, 20)
                     .padding(.bottom, .bottomInsets + 80)
                 
