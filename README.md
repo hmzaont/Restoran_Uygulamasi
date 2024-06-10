@@ -1,8 +1,8 @@
 
 
-# Burger Buffs Uygulaması
+# BoltFood Uygulaması
 
-Burger Buffs, kullanıcıların çeşitli lezzetli burgerleri keşfetmelerini ve sipariş vermelerini sağlayan bir iOS uygulamasıdır.
+BoltFood, kullanıcıların çeşitli lezzetli burgerleri keşfetmelerini ve sipariş vermelerini sağlayan bir iOS uygulamasıdır.
 
 ## Özellikler
 
